@@ -3,8 +3,24 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26228.9
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1_html", "1_html", "{EEEC7844-D927-408B-B8C4-0EC3BC020ECA}"
+	ProjectSection(SolutionItems) = preProject
+		0.01__helloworld.html = 0.01__helloworld.html
+		0.02_h_p_tags.html = 0.02_h_p_tags.html
+		0.03_lists.html = 0.03_lists.html
+		0.04_links.html = 0.04_links.html
+		0.05_images.html = 0.05_images.html
+		0.06_tables.html = 0.06_tables.html
+		0.07_Divs.html = 0.07_Divs.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "img", "img", "{A76623E4-956B-4633-9BDC-9056D59C0E67}"
+EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A76623E4-956B-4633-9BDC-9056D59C0E67} = {EEEC7844-D927-408B-B8C4-0EC3BC020ECA}
 	EndGlobalSection
 EndGlobal
